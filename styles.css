@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#img-div {
+    background-color: #000000;
+}
+
+#image {
+    background-image: url(./img/HMQCEXYU2NCK5HVOEBWQXFAN5M.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    padding: 300px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-left: 155px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: #ffffff;
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 10px 0 20px 0;
+}
+
+.sub-p {
+    margin-left: 175px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 0 0 20px 0;
+}
+
+section {
+    background-color: #000000;
+    padding: 70px;
+}
+.caja-info {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+#tribute-info {
+    width: 50%;
+    color: #ffffff;
+    padding-bottom: 0;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 190px;
+    padding-top: 1px;
+    background-color: #000000;
+}
+
+span {
+    color: #ffffff;
+}
+
+#more {
+    text-align: center;
+    font-size: 13px;
+}
